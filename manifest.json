@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Deduplicator - Chrome",
+  "version": "1.0",
+  "description": "Prevents duplicate tabs by redirecting to existing tabs with matching root URLs",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
